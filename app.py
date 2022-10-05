@@ -130,45 +130,45 @@ with st.container():
             st.write("\n")
         
 
-padd(8)
-with st.container():
-    col , col1, _, col2 = st.columns([.8,1,.2,2])
+# padd(8)
+# with st.container():
+#     col , col1, _, col2 = st.columns([.8,1,.2,2])
     
-    with col1:
-        st.write("\n")
-        st.subheader('Projects')
+#     with col1:
+#         st.write("\n")
+#         st.subheader('Projects')
 
-padd(3)
-with st.container():
+# padd(3)
+# with st.container():
     
-    _ , col1, _ = st.columns([2,5,2])
+#     _ , col1, _ = st.columns([2,5,2])
     
-    with col1:
+#     with col1:
 
             
-            with st.expander("Custom CRM System",expanded=True):
+#             with st.expander("Custom CRM System",expanded=True):
                 
-                st.markdown("""Built Cloud CRM platform utlizing Python's Flask as back-end, integrated with a No-SQL database, Cloud Drive Storage and Front-End in HTML/CSS.""")
+#                 st.markdown("""Built Cloud CRM platform utlizing Python's Flask as back-end, integrated with a No-SQL database, Cloud Drive Storage and Front-End in HTML/CSS.""")
                 
-                rca_image_gallery = './images/GraphGrid-Data-Platform-Architecture.png'
-                rca_image = Image.open(rca_image_gallery)
-                st.image(rca_image,width=None, use_column_width=True)
+#                 rca_image_gallery = './images/GraphGrid-Data-Platform-Architecture.png'
+#                 rca_image = Image.open(rca_image_gallery)
+#                 st.image(rca_image,width=None, use_column_width=True)
             
-            padd(2)
-            with st.expander("End-to-End Financial Reporting Solution",expanded=True):
+#             padd(2)
+#             with st.expander("End-to-End Financial Reporting Solution",expanded=True):
                 
-                st.markdown("Helped Reduce Revenue Reporting Cycle from 3 weeks to 3 days. Utilized Python and SQL to create automated solution that processes raw financial data to accure revenue, expenses based on historicals and aging reports.")
-                finance = './images/rpa1.PNG'
-                rca_image_1 = Image.open(finance)
-                st.image(rca_image_1,width=None, use_column_width=True)
+#                 st.markdown("Helped Reduce Revenue Reporting Cycle from 3 weeks to 3 days. Utilized Python and SQL to create automated solution that processes raw financial data to accure revenue, expenses based on historicals and aging reports.")
+#                 finance = './images/rpa1.PNG'
+#                 rca_image_1 = Image.open(finance)
+#                 st.image(rca_image_1,width=None, use_column_width=True)
         
-            padd(2)
-            with st.expander("Data Analyst with Python",expanded=True):
+#             padd(2)
+#             with st.expander("Data Analyst with Python",expanded=True):
                 
-                st.markdown("""Rigourus test of SQL, Python Programming, Statistics, Machine Learning and a coding challenge aimed to solve real-world data problems.""")
-                da = './images/DAP.png'
-                rca_image = Image.open(da)
-                st.image(rca_image,width=None, use_column_width=True)
+#                 st.markdown("""Rigourus test of SQL, Python Programming, Statistics, Machine Learning and a coding challenge aimed to solve real-world data problems.""")
+#                 da = './images/DAP.png'
+#                 rca_image = Image.open(da)
+#                 st.image(rca_image,width=None, use_column_width=True)
 
 padd(10)                
 

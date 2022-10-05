@@ -1,0 +1,28 @@
+
+
+{"events":
+
+
+[
+   
+{"start_date": {"year": "2019", "month": "1"}
+,"media": {"url": "https://www.motiva.ai/wp-content/uploads/2019/06/verizon-logo-white.png",
+ "credit": "Verion"}
+, "text": {"headline": "Verizon"
+, "text": "<p>Full-time as Financial Analyst at Verizon in Oklahoma covering Global Telecom</p>"}}
+
+
+, {"start_date": {"year": "2021", "month": "1"}
+, "media": {"url": "https://www.boyerbdo.com/wp-content/uploads/2020/07/fresenius-logo.png"
+, "credit": "FMCNA"}
+, "text": {"headline": "Fresenius Medical"
+, "text": "Promoted to Financial Analyst II working with the FP&A Team on revenue for all North-America Kidney Care Centers"}}
+
+
+, {"start_date": {"year": "2021", "month": "11"}
+, "media": {"url": "https://www.rgare.com/images/default-source/pd-e-logo-gallery/beacon.png?sfvrsn=7cdd0503_0",  "credit": "Beacon Oral"}
+, "text": {"headline": "Beacon Oral Specialists"
+, "text": "Senior Financial Analyst at a Private Equity Portfolio Company working towards managing Oral Surgeon Practices"}}
+
+
+]}
