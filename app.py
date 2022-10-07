@@ -447,7 +447,7 @@ if selected_option == "OPUS":
         </h4>
         <p>
             OPUS is a local coffee shop in Gainesville with 9 stores in total. <br><br>We are hired by management to come up with a marketing strategy to increase revenue</b>
-            and provide a general understanding of customer brand preference for Coffee Shops.
+            and provide a general understanding of customer brand preferences for Coffee Shops.
 
         </p>
         <br>
