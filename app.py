@@ -457,7 +457,7 @@ if selected_option == "OPUS":
 
         </h4>
         <p>
-            <li>We aim to understand customer loyalty for Coffee shops among consumers and what features are preferred by customers<\li>  
+            <li>Aim was understand customer loyalty for Coffee shops among consumers and what features are preferred by customers<\li>  
             <br>  
             <li>We recommended new programs such as free rewards for points aimed at increasing customer Customer Life Value<\li>            
             <br>
