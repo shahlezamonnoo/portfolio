@@ -457,12 +457,10 @@ if selected_option == "OPUS":
 
         </h4>
         <p>
-            We aim to understand customer loyalty for Coffee shops among consumers and what features are preferred by customers  <br>  
-            <li>We recommend new programs such as free rewards for points aimed at increasing customer CLV<\li>
+            <li>We aim to understand customer loyalty for Coffee shops among consumers and what features are preferred by customers<li>  <br>  
+            <li>We recommended new programs such as free rewards for points aimed at increasing customer Customer Life Value<\li>            
             <br>
-            <li>We recommended new programs such as free rewards for points aimed at increasing customer CLV<\li>
-            <br>
-            <li>We narrate the brand position of OPUS in the market and which techniques would help increase the customer base<\li>
+            <li>We narrated the brand position of OPUS in its current market along with techniques to increase the customer base<\li>
             <br>              
             <br>  
             Please download our presentation below for more details:
