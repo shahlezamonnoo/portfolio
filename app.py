@@ -461,7 +461,7 @@ if selected_option == "OPUS":
             <br>  
             <li>We recommended new programs such as free rewards for points aimed at increasing customer Customer Life Value<\li>            
             <br>
-            <li>We narrated the brand position of OPUS in its current market along with techniques to increase the customer base<\li>
+            <li>We narrated the brand position of OPUS in its current market along with techniques to increase the customer base<li>
             <br>              
             <br>  
             Please download our presentation below for more details:
