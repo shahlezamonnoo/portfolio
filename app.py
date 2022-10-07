@@ -462,13 +462,14 @@ if selected_option == "OPUS":
             <li>We recommended new programs such as free rewards for points aimed at increasing customer Customer Life Value <\li>            
             <br>
             <li>We narrated the brand position of OPUS in its current market along with techniques to increase the customer base <\li>
-            <br>              
-            <br>  
-            Please download our presentation below for more details:
+            
+            
+            
         </p>
 
 
                         """,unsafe_allow_html=True)
+            st.markdown("Please download our full presentation below for more details:")
             
             with open("web based marketing ppt.pdf", "rb") as pdf_file:
                 PDFbyte = pdf_file.read()
