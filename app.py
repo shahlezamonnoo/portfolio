@@ -237,11 +237,10 @@ with st.sidebar:
 if selected_option == "Summary":
                   
 
-
     with st.container():
-        _ , col1,  col2, _ = st.columns([.8,1,1,.7])
+        _ , col1, _, col2, _ = st.columns([.7,1,.0001,1,.4])
         with col1:
-            st.image(profile_pic, width=360)
+            st.image(profile_pic, width=320)
             st.markdown("")
         with col2:
             st.markdown("# Hi!\n### Welcome to my Portfolio\n ### I am excited to walk you through my work!")
