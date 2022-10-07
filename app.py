@@ -336,8 +336,8 @@ if selected_option == "Redbull":
                         
                         
                                 <p>
-            It is clear from this chart that the <b>most common response</b> from our data falls within the <b>Utility</b> category. There might have been bias within our data since most of the demographic distribution is college students;
-            however, college students remain a huge part of the energy drinks segment as almost all campuses nationwide have Redbull sponsored events held annually.
+            It is clear from this chart that the <b>most common response</b> from our data falls within the <b>Utility</b> category. There might have been bias within our data since most of the demographic distribution is college students.<b>
+            However, college students still remain a huge part of the energy drinks segment as almost all campuses nationwide have Redbull sponsored events held annually.
             Therefore, this information is still useful in penerating the college student market. 
             
             
