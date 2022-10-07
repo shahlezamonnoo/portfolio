@@ -287,7 +287,7 @@ if selected_option == "Redbull":
         </h4>
         <p>
             RedBull was founded in 1987 and is distributed in 171 countries. It is currently valued at <b>$17.54Bn</b>
-            and had net sales of <b>$2.89Bn</b> in 2021 with over <b>75Bn</b> cans sold. Main source of <b>brand awareness</b> is through <b>sponsoring events</b> including sport tournments, nightclub events and even voluteer events for special.
+            and had net sales of <b>$2.89Bn</b> in 2021 with over <b>75Bn</b> cans sold.<br> Main source of <b>brand awareness</b> is through <b>sponsoring events</b> including sport tournments, nightclub events and even voluteer events for special.
 
         </p>
         <br>
