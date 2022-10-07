@@ -297,7 +297,7 @@ if selected_option == "Redbull":
 
         </h4>
         <p>
-            Utlizing a dataset of 30min interviews with undergrads, we take all variables from the conversativons and identify the most important features for chooses Redbull over other energy drinks.
+            Utlizing a dataset of 30min interviews with undergrads, we take all variables from the conversativons and identify the most important features for chooses Redbull over other energy drinks.<br>
             We are also working with a dataset of online reviews from sources such as Amazon.com, Walmart.com, Instagram, Facebook and Twitter to identify a common pattern of choice between these customers.
             <br>
             <br>  
