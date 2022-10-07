@@ -449,27 +449,25 @@ if selected_option == "OPUS":
             OPUS is a local coffee shop in Gainesville with 9 stores in total. <br><br>We are hired by management to come up with a marketing strategy to increase revenue</b>
             and provide a general understanding of customer brand preferences for Coffee Shops.
 
-        </p>
+       
         <br>
         <br>
-        <h4>
-            <b>2. Approach</b>
-
-        </h4>
+        
+        <h4> <b>2. Approach</b> </h4>
+        
+         
         <p>
-            <li>Aim was understand customer loyalty for Coffee shops especially OPUS among consumers and what features are preferred by customers <\li>  
+            <li>Aim was understand customer loyalty for Coffee shops especially OPUS among consumers and what features are preferred by customers </li>  
             <br>  
-            <li>We recommended new programs such as free rewards for points aimed at increasing customer Customer Life Value <\li>            
+            <li>We recommended new programs such as free rewards for points aimed at increasing customer Customer Life Value </li>            
             <br>
-            <li>We narrated the brand position of OPUS in its current market along with techniques to increase the customer base <\li>
-            
-            
-            
+            <li>We narrated the brand position of OPUS in its current market along with techniques to increase the customer base </li>           
+            <br>
         </p>
 
 
                         """,unsafe_allow_html=True)
-            st.markdown("Please download our full presentation below for more details:")
+            st.markdown("Please download my full presentation below for more details:")
             
             with open("web based marketing ppt.pdf", "rb") as pdf_file:
                 PDFbyte = pdf_file.read()
