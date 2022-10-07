@@ -412,6 +412,17 @@ if selected_option == "Redbull":
                         
                         """,unsafe_allow_html=True)
             
+                        
+            with open("Brand equity presentation.pdf", "rb") as pdf_file:
+                PDFbyte = pdf_file.read()
+               
+            pad(5)
+            st.download_button(label="Download Presentation File", 
+                    data=PDFbyte,
+                    file_name="RedBull_CASE.pdf",
+                    mime='application/octet-stream')
+            
+            
             
 
             
@@ -435,7 +446,7 @@ if selected_option == "OPUS":
             <b>1. Aim of Analysis</b>
         </h4>
         <p>
-            OPUS is a local coffee shop in Gainesville with 9 stores in total. We are hired my management to come up with a marketing strategy to increase revenue</b>
+            OPUS is a local coffee shop in Gainesville with 9 stores in total. <br><br>We are hired my management to come up with a marketing strategy to increase revenue</b>
             and provide a general understanding of customer brand preference for Coffee Shops.
 
         </p>
@@ -447,8 +458,14 @@ if selected_option == "OPUS":
         </h4>
         <p>
             We aim to understand customer loyalty for Coffee shops among consumers and what are features are preferred by customers  <br>  
+            <li>We recommend new programs such as free rewards for points aimed at increasing customer CLV<\li>
+            <br>
+            <li>We recommended new programs such as free rewards for points aimed at increasing customer CLV<\li>
+            <br>
+            <li>We narrate the brand position of OPUS in the market and which techniques would help increase the customer base<\li>
             <br>              
-            Please find our presentation below:
+            <br>  
+            Please download our presentation below for more details:
         </p>
 
 
@@ -458,117 +475,16 @@ if selected_option == "OPUS":
                 PDFbyte = pdf_file.read()
                
             
+
             
+            st.image(
+            "https://s.yimg.com/bj/4f6c/4f6c0cd0b11130577694215b860b723d.jpg",
+            width=800, # Manually Adjust the width of the image as per requirement
+        )
+                        
+            pad(3)
             st.download_button(label="Download Presentation File", 
                     data=PDFbyte,
                     file_name="OPUS_CASE.pdf",
                     mime='application/octet-stream')
-            
-            
-            
-    
-    #         st.markdown("""
-        
-        
-                
-    #             <li><b>Consolidate all customer data</b> in one data model and choose important / common features </li> 
-    #             <br>
-                
-    #             <li>Run analysis to <b>find correlation </b>between variables and eliminate un-important variables</li>
-    #             <br>
-    #             <li>Rank variables from most important and identify <b>customer segment</b> that responds most closely to them</li>
-            
-        
-
-
-    #                     """,unsafe_allow_html=True)
-            
-    #         pad(5)
-            
-    #         st.markdown("#### **Category Breakdown**")
-            
-    #         st.plotly_chart(first_graph())
-            
-            
-    #         st.markdown("""
-                        
-                        
-                        
-    #                             <p>
-    #         It is clear from this chart that the <b>most common response</b> from our data falls within the <b>Utility</b> category. There might have been bias within our data since most of the demographic distribution is college students.<br>
-    #         However, college students still remain a huge part of the energy drinks segment as almost all campuses nationwide have Redbull sponsored events held annually.
-    #         Therefore, this information is still useful in penerating the college student market. 
-            
-            
-
-        
-    # </p>
-                        
-    #                     """
-                        
-                        
-                        
-    #                    ,unsafe_allow_html=True )
-            
-            
-    #         pad(5)
-    #         st.markdown("#### **Perception Analysis**")
-    #         st.plotly_chart(second_graph())
-    #         pad(5)
-            
-    #         st.markdown("""
-                        
-    #                         <p>
-    #    People who prefer Redbull generally enjoy how effective it is and also prefer the taste over other energy drinks. 
-    #    <b>Effectiveness and Caffeine content play hand-to-hand</b> and thus the high 
-    #    score on both for Redbull solidifies our intial findings of work/study category use.
-        
-                
-    # </p>
-
-                        
-    #                     """,unsafe_allow_html=True )
-            
-            
-
-    
-    #         pad(5)
-    #         st.markdown("#### **Heavy Energy Drinkers feel neutral about the taste**")        
-    #         st.plotly_chart(third_graph())
-
-    #         st.markdown("""
-    #                         <p>
-    #     After narrowing down the segments within Redbull's customer demographic, we identified the heavy drinkers don't have a 
-    #     preference to taste as compared to light drinkers.
-
-    #  <br>
-    #  <br>
-    #  <h3>
-    #     Conclusion and Recommendations
-    #  </h3>
-    #  </p>
-    #  <br>
-     
-    #      """,unsafe_allow_html=True)
-                   
-     
-    #         st.markdown("""
-
-    #  <li><b></b> Red Bull is preferred due to its <b>High Effectiveness</b> and <b>Caffeine Content</b> but not its taste</li> 
-    #  <br>
-     
-    #  <li>Mangement should <b>focus</b> on developing marketing campaigns <b>highlighting RedBull's strong effectiveness</b> and illustrate scenarios of work / study consumptions</li>
-    #  <br>
-    #  <li>Even though other segments aside from Utlities remains a market for RedBull, the <b>customer acquistion cost</b> for that segment is higher compared to Utility work.</li>
-    #  <br>
-    #  <li>Marketing should refrain showcasing social activites (nightclubs / partying) due to lower potential <b>Customer Lifetime Value<b>.</li>
-     
-     
-     
-     
- 
-
-
-                        
-    #                     """,unsafe_allow_html=True)
             
