@@ -249,7 +249,7 @@ if selected_option == "Summary":
             
 
     with st.container():
-        _, col1, _ = st.columns([.2,1,.2])
+        _ , col1, _ = st.columns([.4,1,.4])
         with col1:
         
             
@@ -259,6 +259,11 @@ if selected_option == "Summary":
             st.title("My Timeline for Projects")        
             st.markdown("##### A short timeline representing my inspiration and sequence of work")
             
+        
+        # _, col1, _ = st.columns([.2,1,.2])
+        # with col1:
+        
+            
             pad(5)
             with st.spinner(text="Building line"):
                 
@@ -267,7 +272,46 @@ if selected_option == "Summary":
                     timeline(data, height=700)
             
             st.markdown("---")
+            pad(10)                
+
+
+            st.markdown('---')  
+    with st.container():
+        _ , col1, _ = st.columns([5,2,5])
+        
+        with col1:                  
+            st.header('Lets Connect! :mailbox:')
             
+    st.markdown('---')        
+
+    pad(5)
+    with st.container():
+        _ , col1, _ = st.columns([.4,1,.4])
+        
+        with col1:    
+
+
+
+            contact_form = """
+            <form action="https://formsubmit.co/40809310289037b472a15fdf4971dbe3" method="POST">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" name="name" placeholder="Your name" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message here"></textarea>
+                <button type="submit">Send</button>
+            </form>
+            """
+
+            st.markdown(contact_form, unsafe_allow_html=True)
+
+            # Use Local CSS File
+            def local_css(file_name):
+                with open(file_name) as f:
+                    st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+
+            local_css("styles/style.css")
+                
 
 if selected_option == "Redbull":
         _, col1, _ = st.columns([.2,1,.2])
