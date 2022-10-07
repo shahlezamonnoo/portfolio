@@ -296,8 +296,8 @@ if selected_option == "Redbull":
 
         </h4>
         <p>
-            Utlizing a dataset of 30min interviews with undergrads, we take all variables from the conversativons and identify the most important features for chooses Redbull over other energy drinks.<br>
-            We are also working with a dataset of online reviews from sources such as Amazon.com, Walmart.com, Instagram, Facebook and Twitter to identify a common pattern of choice between these customers.
+            Utlizing a dataset of 30min interviews with undergrads, we took all variables from the conversativons and identified the most important features for chooses Redbull over other energy drinks.<br>
+            We also worked with a dataset of online reviews from sources such as Amazon.com, Walmart.com, Instagram, Facebook and Twitter to identify a common pattern of choice between these customers.
             <br>
             <br>  
             <br>              
@@ -457,11 +457,11 @@ if selected_option == "OPUS":
 
         </h4>
         <p>
-            <li>Aim was understand customer loyalty for Coffee shops especially OPUS among consumers and what features are preferred by customers<\li>  
+            <li>Aim was understand customer loyalty for Coffee shops especially OPUS among consumers and what features are preferred by customers <\li>  
             <br>  
-            <li>We recommended new programs such as free rewards for points aimed at increasing customer Customer Life Value<\li>            
+            <li>We recommended new programs such as free rewards for points aimed at increasing customer Customer Life Value <\li>            
             <br>
-            <li>We narrated the brand position of OPUS in its current market along with techniques to increase the customer base<li>
+            <li>We narrated the brand position of OPUS in its current market along with techniques to increase the customer base <\li>
             <br>              
             <br>  
             Please download our presentation below for more details:
