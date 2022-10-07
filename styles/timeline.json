@@ -5,24 +5,37 @@
 
 [
    
-{"start_date": {"year": "2019", "month": "1"}
-,"media": {"url": "https://www.motiva.ai/wp-content/uploads/2019/06/verizon-logo-white.png",
- "credit": "Verion"}
-, "text": {"headline": "Verizon"
-, "text": "<p>Full-time as Financial Analyst at Verizon in Oklahoma covering Global Telecom</p>"}}
+{"start_date": {"year": "2021", "month": "7"}
+,"media": {"url": "https://th.bing.com/th/id/R.488da934f82ff2d042611aba130226df?rik=yV16wa0fZ4VtMg&pid=ImgRaw&r=0",
+ "credit": "UF"}
+, "text": {"headline": "Started at UF"
+, "text": "<p>In the Fall of 2021 I started my Masters degree at UF. This was a great milestone in my life as it propelled me to study next to talented indiviuals from across the globe. After countless hours of staying up late at night in my undergrad to get good grades. This is a great relief and a new start to my academic career.</p>"}}
 
 
-, {"start_date": {"year": "2021", "month": "1"}
-, "media": {"url": "https://www.boyerbdo.com/wp-content/uploads/2020/07/fresenius-logo.png"
-, "credit": "FMCNA"}
-, "text": {"headline": "Fresenius Medical"
-, "text": "Promoted to Financial Analyst II working with the FP&A Team on revenue for all North-America Kidney Care Centers"}}
+, {"start_date": {"year": "2021", "month": "10"}
+, "media": {"url": "https://treeo.ufl.edu/media/treeoufledu/facility-rental-pictures/Auditorium.jpg"
+, "credit": "UF"}
+, "text": {"headline": "The Red Bull Case"
+, "text": "As a group of five members, each presenting their own section, we present a through analysis on Red Bull's Market Segmentation and Customer Profile. Our project was about distinguishing patterns in a survey dataset utilize statistical modelling techniques and arrive at the most reasonable suggestions for Red-Bulls management. Since the size of the dataset was relatively small and we only really cared about identifying regions that had high red bull consumption."}}
+
+, {"start_date": {"year": "2021", "month": "12"}
+, "media": {"url": "https://gust-production.s3.amazonaws.com/uploads/startup/logo_image/603894/logo_gradient_background.png",  "credit": "PYT"}
+, "text": {"headline": "Intern at PYT Funds"
+, "text": "After a great amount of networking. I was finally able to get an opportunity to work in a Startup. I was closely working with the CEO on social media marketing to gain more clients for the company. This was a great learning experience and opportunity to apply my academic learning in practice."}}
 
 
-, {"start_date": {"year": "2021", "month": "11"}
-, "media": {"url": "https://www.rgare.com/images/default-source/pd-e-logo-gallery/beacon.png?sfvrsn=7cdd0503_0",  "credit": "Beacon Oral"}
-, "text": {"headline": "Beacon Oral Specialists"
-, "text": "Senior Financial Analyst at a Private Equity Portfolio Company working towards managing Oral Surgeon Practices"}}
+
+, {"start_date": {"year": "2022", "month": "01"}
+, "media": {"url": "https://static1.squarespace.com/static/55f862a7e4b09ee1e2fc39c4/5783a70e8419c2419a9d9092/5783a711be6594c387fad108/1469045710030/opus-coffee-2015annualreport-ver24.jpg",  "credit": "OPUS Coffee"}
+, "text": {"headline": "Time for a Coffee Break"
+, "text": "My Second Semester at UF and having a internship, we dive into Marketing Analytics. As the world of digital marketing grows our task of improving OPUS' (a local coffee) market presence presented. This was the first time I saw how different real-world datasets were compared to textbook learning. The store's owner agreeded to give us his financials in return for a complete market analysis report for his business. In return, as students, we got the opportunity of getting real-world experience"}}
+
+
+, {"start_date": {"year": "2022", "month": "08"}
+, "media": {"url": "https://th.bing.com/th/id/OIP.skLe5vOKJUqqF_SUd93nmQHaHa?pid=ImgDet&rs=1",  "credit": "Deadpool"}
+, "text": {"headline": "Thanks for watching!"
+, "text": ""}}
+
 
 
 ]}
