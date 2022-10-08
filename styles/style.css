@@ -25,10 +25,22 @@ button[type=submit]:hover {
   background-color: #504e4e29;
 }
 
-.css-1wf22gv{
+.css-1wf22gv {
+  background-color: rgb(240, 242, 246);
+  background-attachment: fixed;
+  flex-shrink: 0;
+  height: calc(100vh - 2px);
+  top: 2px;
+  overflow: auto;
+  padding: 6rem 1rem;
   position: unset;
-  }
+  transition: margin-left 300ms ease 0s, box-shadow 300ms ease 0s;
+  width: 21rem;
+  z-index: 1000021;
+  margin-left: -21rem;
+}
 
-.css-1adrfps  {
+.css-1adrfps {
   position: unset;
 }
+

@@ -121,7 +121,20 @@ sidebar_collapse = '''
     font-size: 14px;
     line-height: 3;
 }
-
+.css-1wf22gv {
+    background-color: rgb(240, 242, 246);
+    background-attachment: fixed;
+    flex-shrink: 0;
+    height: calc(100vh - 2px);
+    top: 2px;
+    overflow: auto;
+    padding: 6rem 1rem;
+    position: unset;
+    transition: margin-left 300ms ease 0s, box-shadow 300ms ease 0s;
+    width: 21rem;
+    z-index: 1000021;
+    margin-left: -21rem;
+}
 
  </style> 
  '''
@@ -213,6 +226,7 @@ def pad(x):
     
     for i in range(x):
         st.markdown("\n")
+        
 
 profile_pic = Image.open(profile_pic)
 
@@ -220,6 +234,7 @@ profile_pic = Image.open(profile_pic)
 # # --- HERO SECTION ---
 
 with st.sidebar:
+        pad(1)
         selected_option = option_menu(
         menu_title = 'Navigation',
         menu_icon = ' ',
@@ -314,6 +329,9 @@ if selected_option == "Summary":
 
 if selected_option == "Redbull":
         _, col1, _ = st.columns([.2,1,.2])
+        
+
+
         
         with col1:
         
