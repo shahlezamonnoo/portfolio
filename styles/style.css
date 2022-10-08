@@ -24,3 +24,7 @@ button[type=submit] {
 button[type=submit]:hover {
   background-color: #504e4e29;
 }
+
+.css-1wf22gv{
+  position: unset;
+  }
