@@ -192,7 +192,7 @@ def first_graph():
 
     fello.update_layout(title = "",
         template = 'simple_white', xaxis_title = '', 
-        yaxis_title = '', width = 1500, height = 700
+        yaxis_title = '', width = 1400, height = 700
         ,yaxis = dict(tickfont = dict( size = 15  ))
         ,xaxis = dict(tickfont = dict( size = 20  )))
     
